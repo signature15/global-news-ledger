@@ -1,9 +1,9 @@
 /**
- * global-news-ledger — make.fun news image entry, contest news-image-20261117.
+ * global-news-ledger — make.fun news image entry, contest news-image-20261118.
  *
  * What this program does:
  *   It publishes this repository's contest entry — `entry.png`, a front-page
- *   style poster of the world's news of Tuesday 17 November 2026 — by copying
+ *   style poster of the world's news of Wednesday 18 November 2026 — by copying
  *   the image byte-for-byte into the output directory the grader reads from.
  *   Inside the grading container the destination is always /output; anywhere
  *   else, the environment variable MAKEFUN_OUTPUT_DIR names the output
