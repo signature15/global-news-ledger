@@ -1,3 +1,4 @@
+import { join } from 'node:path';
 /**
  * global-news-ledger — make.fun news image entry, contest news-image-20261118.
  *
@@ -46,8 +47,6 @@
  */
 
 import { copyFileSync } from "node:fs";
-import { join } from "node:path";
-
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 
 copyFileSync(new URL("./entry.png", import.meta.url), join(outputDir, "entry.png"));
