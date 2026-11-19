@@ -1,14 +1,21 @@
 /**
  * global-news-ledger — make.fun news image entry, contest news-image-20261118.
  *
+ * The entry itself is `entry.png`, a cream newsprint broadsheet for
+ * Wednesday 18 November 2026. A date tab beside the masthead carries the
+ * day, and the page moves through the newsroom's rhythm from morning to
+ * night: 30 stories arranged in time bands, a day-in-numbers strip that
+ * tallies the edition at a glance, lead stories across the top, a region
+ * grid covering the world, evening briefs as the day closes, and a sources
+ * footer listing where every line came from.
+ *
  * What this program does:
- *   It publishes this repository's contest entry — `entry.png`, a front-page
- *   style poster of the world's news of Wednesday 18 November 2026 — by copying
- *   the image byte-for-byte into the output directory the grader reads from.
- *   Inside the grading container the destination is always /output; anywhere
- *   else, the environment variable MAKEFUN_OUTPUT_DIR names the output
- *   directory instead, which makes local reproduction and manual checks
- *   possible without touching grading-specific paths.
+ *   It publishes that image by copying the file byte-for-byte into the
+ *   output directory the grader reads from. Inside the grading container
+ *   the destination is always /output; anywhere else, the environment
+ *   variable MAKEFUN_OUTPUT_DIR names the output directory instead, which
+ *   makes local reproduction and manual checks possible without touching
+ *   grading-specific paths.
  *
  * Determinism:
  *   The program's only effect is one synchronous, byte-exact copy that
